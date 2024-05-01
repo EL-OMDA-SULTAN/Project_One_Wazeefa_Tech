@@ -1,0 +1,45 @@
+.woman-section{
+    padding: 40px 0px;
+    margin-bottom: 50px;
+}
+
+.woman-section img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.woman-section .sections .sections-head{
+    background-color: #f5e0d7;
+}
+
+.dresses-section,
+.tops-section,
+.jeans-section,
+.shoes-section,
+.cleansers-section,
+.eyecreams-section{
+    margin-bottom: 80px;
+}
+
+.dresses-section .container,
+.tops-section .container,
+.shoes-section .container,
+.cleansers-section .container,
+.eyecreams-section .container,
+.jeans-section .container{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.dresses-section .section-titel h3,
+.tops-section .section-titel h3,
+.shoes-section .section-titel h3,
+.cleansers-section .section-titel h3,
+.eyecreams-section .section-titel h3,
+.jeans-section .section-titel h3{
+    background-color: #f5e0d7;
+    padding: 20px;
+    color: var(--main-color);
+    font-weight: bold;
+    text-align: center;
+}

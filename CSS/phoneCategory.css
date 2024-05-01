@@ -1,0 +1,45 @@
+.phone-section{
+    padding: 40px 0px;
+    margin-bottom: 50px;
+}
+
+.phone-section .sections-head{
+    background-color: #c9cecf ;
+}
+
+.phone-section img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.android-section,
+.ios-section,
+.tablets-section,
+.call-section,
+.smart-watches-section,
+.accessories-section{
+    margin-bottom: 80px;
+}
+
+.android-section .container,
+.ios-section .container,
+.tablets-section .container,
+.call-section .container,
+.smart-watches-section .container,
+.accessories-section .container{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.android-section .section-titel h3,
+.ios-section .section-titel h3,
+.tablets-section .section-titel h3,
+.call-section .section-titel h3,
+.smart-watches-section .section-titel h3,
+.accessories-section .section-titel h3{
+    background-color: #c9cecf;
+    padding: 20px;
+    color: var(--main-color);
+    font-weight: bold;
+    text-align: center;
+}

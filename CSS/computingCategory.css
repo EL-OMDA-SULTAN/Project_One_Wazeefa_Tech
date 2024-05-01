@@ -1,0 +1,45 @@
+.computing-section{
+    padding: 40px 0px;
+    margin-bottom: 50px;
+}
+
+.computing-section img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.computing-section .sections-head{
+    background-color: #d4d8c0 ;
+}
+
+.laptops-section,
+.accessories-section,
+.bags-section,
+.storage-section,
+.printers-section,
+.stands-section{
+    margin-bottom: 80px;
+}
+
+.laptops-section .container,
+.accessories-section .container,
+.bags-section .container,
+.storage-section .container,
+.printers-section .container,
+.stands-section .container{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.laptops-section .section-titel h3,
+.accessories-section .section-titel h3,
+.bags-section .section-titel h3,
+.storage-section .section-titel h3,
+.printers-section .section-titel h3,
+.stands-section .section-titel h3{
+    background-color: #d4d8c0;
+    padding: 20px;
+    color: var(--main-color);
+    font-weight: bold;
+    text-align: center;
+}

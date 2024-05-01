@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Profile</title>
+        <link rel="stylesheet" href="../CSS/all.css">
+        <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="../CSS/home.css">
+        <link rel="stylesheet" href="../CSS/profile.css">
+        <link rel="icon" href="../Images/Logos/Tap logo.png">
+    </head>
+
+    <body>
+        <!-- Start Navbar -->
+        <nav class="navbar bg-white">
+            <div class="container d-flex justify-content-lg-between justify-content-md-between justify-content-center">
+                <a class="navbar-brand">
+                    <img src="../Images/Logos/easyshop.png" alt="Logo">
+                </a>
+                <form class="d-none d-lg-flex d-md-flex" role="search">
+                    <input class="form-control me-2 border-3" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <nav class="navbar nav-two navbar-expand-lg bg-body-secondary position-sticky top-0">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="menCategory.html">Men</a></li>
+                                <li><a class="dropdown-item" href="womanCategory.html">Woman & Beauty</a></li>
+                                <li><a class="dropdown-item" href="babyCategory.html">Baby Products</a></li>
+                                <li><a class="dropdown-item" href="phoneCategory.html">Phones & Tablets</a></li>
+                                <li><a class="dropdown-item" href="computingCategory.html">Computing</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="wishlist.html">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-user"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="login.html"><button
+                                            class="btn pe-5 ps-5 pt-3 pb-3 fs-5 fw-bold">
+                                            Sin In</button></a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a></li>
+                                <li><a class="dropdown-item" href="cart.html"><i class="fa fa-list"></i> My Orders</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Start Profile Section -->
+        <section class="profile">
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-between justify-content-sm-between justify-content-md-between align-items-center">
+                    <div class="col-8 col-lg-3 col-md-4 col-sm-5 profile-info">
+                        <div class="profile-img">
+                            <img src="../Images/Profile/profile.jpg" alt="Profile Image">
+                            <a href="#" class="change"><i class="fa-solid fa-rotate-right"></i> Change / </a>
+                            <a href="#" class="delete"><i class="fa-regular fa-trash-can"></i> Delete</a>
+                            <h4>Elomda Sultan AbdElaziz</h4>
+                        </div>
+                        <hr>
+                        <div class="profile-options">
+                            <a href="cart.html"><i class="fa-solid fa-store"></i> Orders</a>
+                            <a href="wishlist.html"><i class="fa-regular fa-heart"></i> Saved Items</a>
+                            <a href="#"><i class="fa-solid fa-clock-rotate-left"></i> Recent Viewed</a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-10 col-lg-8 col-md-7 col-sm-6 profile-detils">
+                        <h3>Account OverView</h3>
+                        <hr>
+                        <div class="row justify-content-around">
+                            <div class="col-10 col-lg-5 prfile-detils-info">
+                                <h5>Account details</h5>
+                                <hr>
+                                <p><i class="fa-regular fa-user"></i> <b>User  : </b>Elomda</p>
+                                <p><i class="fa-regular fa-envelope"></i> <b>Email : </b> elomdasultan @ gmail.com</p>
+                                <button class="btn"><i class="fa-regular fa-pen-to-square"></i> Edit</button>
+                            </div>
+                            <div class="col-10 col-lg-5 prfile-detils-info">
+                                <h5>Address Book</h5>
+                                <hr>
+                                <p><b>Name : </b>Elomda Sultan Abdelaziz</p>
+                                <p><i class="fa-solid fa-location-dot"></i> <b>Address : </b> Assuit - Dairout</p>
+                                <p><i class="fa-solid fa-phone"></i> <b>Phone : </b> 01015570762</p>
+                                <button class="btn"><i class="fa-regular fa-pen-to-square"></i> Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Profile Section -->
+
+        <!-- Start Footer Section -->
+        <footer id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col ">
+                        <div class="foot-logo">
+                            <img src="../Images/Logos/easyshop.png" alt="Footer Image" class="bg-white">
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        </div>
+                    </div>
+                    <div class="col ms-lg-3">
+                        <h5>Categories</h5>
+                        <ul>
+                            <li><a href="menCategory.html">Men</a></li>
+                            <li><a href="womanCategory.html">Woman & Beauty</a></li>
+                            <li><a href="babyCategory.html">Baby Products</a></li>
+                            <li><a href="phoneCategory.html">Phones & Tablets</a></li>
+                            <li><a href="computingCategory.html">Computing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>Account</h5>
+                        <ul>
+                            <li><a href="profile.html">My Account</a></li>
+                            <li><a href="wishlist.html">wishlist</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>Contact</h5>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-map-location-dot me-2"></i>
+                                123 Street, Old Trafford, London
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-envelope-open me-2"></i>
+                                elomdasulatn@gmail.com
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button me-2"></i>
+                                +20 01015570762
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row right">
+                <h4>© 2024 All Rights Reserved By <u>Elomda Sultan</u></h4>
+            </div>
+        </footer>
+        <!-- End Footer Section -->
+
+        <script src="../JS/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>

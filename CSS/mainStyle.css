@@ -1,0 +1,98 @@
+.sections .sections-head{
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #d5ecf0;
+    color: var(--main-color);
+}
+
+.sections .sections-body{
+    padding: 15px 0 0 0;
+    background-color: white;
+}
+
+.sections-body a img{
+    box-shadow: 0 1px 5px black;
+}
+
+.sections .sections-body a img:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24),-5px -5px 5px rgba(0, 0, 0, 0.24);
+    transform: scale(1.03);
+}
+/* Start Card For All Categories Page Style */
+.card{
+    position: relative;
+    margin: 10px 0;
+    box-shadow: 0 1px 5px black;
+} 
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24),-5px -5px 5px rgba(0, 0, 0, 0.24);
+}
+
+.card img{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.411);
+}
+.card .favrout{
+    padding: 5px;
+    position: absolute;
+    color: var(--main-color);
+    top: 5px;
+    font-size: 25px;
+    border-radius: 50%;
+} 
+
+.card .favrout:hover {
+    font-weight: bold;
+}
+
+.card .descount {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    color: var(--main-color);
+    background-color: rgba(255, 255, 0, 0.464);
+    padding: 2px;
+    font-weight: 500;
+}
+
+.card .card-text {
+    margin-top: 10px;
+}
+
+.card .card-text .cost {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--main-color);
+    margin-right: 5px;
+}
+
+.card-text .old-cost {
+
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.card .rate {
+    color: rgb(219, 219, 10);
+}
+
+.card .number {
+    opacity: 0.7;
+}
+
+.card .btn{
+    display: block;
+    margin-top: 15px;
+    background-color: white;
+    color: var(--main-color);
+    font-weight: bold;
+    border: 2px solid var(--main-color);
+    padding: 10px 0px;
+}
+
+.card .btn:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+/* End Card For All Categories Page Style */

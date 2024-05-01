@@ -1,0 +1,41 @@
+.baby-section{
+    padding: 40px 0px;
+    margin-bottom: 50px;
+}
+
+.baby-section img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.toys-section,
+.Diapers-section,
+.wipes-section,
+.skin-care-section,
+.health-section,
+.bag-section{
+    margin-bottom: 80px;
+}
+
+.toys-section .container,
+.Diapers-section .container,
+.wipes-section .container,
+.skin-care-section .container,
+.health-section .container,
+.bag-section .container{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.toys-section .section-titel h3,
+.Diapers-section .section-titel h3,
+.wipes-section .section-titel h3,
+.skin-care-section .section-titel h3,
+.health-section .section-titel h3,
+.bag-section .section-titel h3{
+    background-color: #d5ecf0;
+    padding: 20px;
+    color: var(--main-color);
+    font-weight: bold;
+    text-align: center;
+}

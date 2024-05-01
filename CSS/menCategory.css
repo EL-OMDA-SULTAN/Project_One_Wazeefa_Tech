@@ -1,0 +1,41 @@
+.men-section{
+    padding: 40px 0px;
+    margin-bottom: 50px;
+}
+
+.men-section img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.t-shirt-section,
+.shirts-section,
+.sports-section,
+.watches-section,
+.sneakers-section,
+.socks-section{
+    margin-bottom: 80px;
+}
+
+.t-shirt-section .container,
+.shirts-section .container,
+.sports-section .container,
+.watches-section .container,
+.sneakers-section .container,
+.socks-section .container{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.t-shirt-section .section-titel h3,
+.shirts-section .section-titel h3,
+.sports-section .section-titel h3,
+.watches-section .section-titel h3,
+.sneakers-section .section-titel h3,
+.socks-section .section-titel h3{
+    background-color: #d5ecf0;
+    padding: 20px;
+    color: var(--main-color);
+    font-weight: bold;
+    text-align: center;
+}

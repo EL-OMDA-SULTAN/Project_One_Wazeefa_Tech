@@ -1,0 +1,96 @@
+.profile{
+    padding: 40px 0;
+}
+
+.profile .profile-info{
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.445);
+    margin-bottom: 20px;
+}
+
+.profile .profile-img{
+    text-align: center;
+}
+
+.profile .profile-img img{
+    width: 60%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.profile .profile-img a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.577);
+}
+
+.profile .profile-img .change:hover{
+    color: blue;
+}
+
+.profile .profile-img .delete:hover{
+    color: red;
+}
+
+.profile .profile-img h4{
+    margin-top: 10px;
+}
+
+.profile .profile-options a{
+    display: block;
+    padding:  10px 5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.profile .profile-options a i{
+    padding-right: 5px;
+}
+
+.profile .profile-options a:hover{
+    color: var(--main-color);
+}
+
+.profile .profile-detils{
+    text-wrap:  wrap;
+    background-color: white;
+    padding: 40px 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.527);
+}
+
+.profile .profile-detils h3{
+    text-align: center;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.profile .profile-detils .prfile-detils-info{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.527);
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.profile .profile-detils .prfile-detils-info h5{
+    text-align: center;
+    color: #c1121ec4;
+    
+}
+
+.profile .profile-detils .prfile-detils-info button{
+    color: var(--main-color);
+    display: block;
+    margin: auto;
+    border: 2px solid var(--main-color);
+}
+
+.profile .profile-detils .prfile-detils-info button:hover{
+    color: white;
+    background-color: var(--main-color);
+}

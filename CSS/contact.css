@@ -1,0 +1,79 @@
+/* Start Contact Style */
+.contact{
+    background-color: rgb(241, 239, 239);
+    padding: 50px 0px;
+}
+
+.contact h2 ,
+.contact hr{
+    color: black !important;
+}
+
+.contact .contact-cart{
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.678) ,0 -1px 5px rgba(0, 0, 0, 0.678);
+}
+
+.contact .contact-cart i{
+    padding-top: 30px;
+    height: 100px ;
+    width: 100px;
+    font-size: 30px;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    color: var(--main-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.contact .contact-cart i:hover{
+    color: white;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.contact .contact-cart p{
+    opacity: 0.8;
+}
+
+.contact form{
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.678) ,0 -1px 5px rgba(0, 0, 0, 0.678);
+}
+
+.contact form input ,
+.contact form textarea{
+    border: 2px solid #c1121e6d;
+}
+
+.contact form input:focus,
+.contact form textarea:focus{
+    box-shadow: none;
+    border-color: var(--main-color);
+    box-shadow:1px 1px 3px #c1121e7a ,-1px -1px 3px #c1121e7a;
+}
+
+.contact form .btn{
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: block;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    background-color: white;
+    margin: auto;
+}
+
+.contact form .btn:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+/* End Contact Style */

@@ -1,0 +1,12 @@
+.wishlist-section{
+    padding: 40px 0;
+}
+
+.wishlist-section .container .row{
+    padding: 10px 0;
+    background-color: white;
+}
+
+.card .favrout:hover{
+    color: #c1121ea7;
+}
