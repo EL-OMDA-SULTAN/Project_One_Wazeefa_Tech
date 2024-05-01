@@ -12,6 +12,10 @@
     margin-bottom: 15px;
 }
 
+.phone-section .row div{
+    padding: 10px;
+}
+
 .android-section,
 .ios-section,
 .tablets-section,

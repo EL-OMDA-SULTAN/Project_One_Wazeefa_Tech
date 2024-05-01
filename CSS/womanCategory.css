@@ -12,6 +12,10 @@
     background-color: #f5e0d7;
 }
 
+.woman-section .row div{
+    padding: 10px;
+}
+
 .dresses-section,
 .tops-section,
 .jeans-section,

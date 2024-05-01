@@ -8,6 +8,10 @@
     margin-bottom: 15px;
 }
 
+.computing-section .row div{
+    padding: 10px;
+}
+
 .computing-section .sections-head{
     background-color: #d4d8c0 ;
 }

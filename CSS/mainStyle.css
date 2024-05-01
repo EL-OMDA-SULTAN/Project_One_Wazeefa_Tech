@@ -21,7 +21,7 @@
 /* Start Card For All Categories Page Style */
 .card{
     position: relative;
-    margin: 10px 0;
+    margin: 20px 10px;
     box-shadow: 0 1px 5px black;
 } 
 
