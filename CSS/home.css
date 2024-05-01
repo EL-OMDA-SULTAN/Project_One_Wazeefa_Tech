@@ -3,6 +3,9 @@ body{
     background-color: rgb(241, 239, 239);
 }
 
+.row{
+    --bs-gutter-x:0;
+}
 :root{
     --main-color:#c1121f;
 }
